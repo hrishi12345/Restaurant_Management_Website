@@ -1,9 +1,10 @@
 import Header from "./components/Layout/Header";
+import MealsSummary from "./components/Summary/MealsSummary";
 function App() {
   return (
     <div>
       <Header />
-      <h2>Let's get started!</h2>
+      <MealsSummary />
     </div>
   );
 }
