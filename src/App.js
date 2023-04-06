@@ -1,10 +1,12 @@
 import Header from "./components/Layout/Header";
-import MealsSummary from "./components/Summary/MealsSummary";
+
+import Meals from "./components/Meals/Meals";
+
 function App() {
   return (
     <div>
       <Header />
-      <MealsSummary />
+      <Meals />
     </div>
   );
 }
